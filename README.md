@@ -5,13 +5,14 @@ Code accompanying an anonymous double-blind submission: dataset generation, veri
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/downloads/)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-green)](LICENSE)
 
-**Author information:** omitted for double-blind review. The dataset and model are available through an anonymized link: `[ANONYMOUS-DATA-URL]`.
+**Author information:** omitted for double-blind review. The dataset and model are available through anonymized links: [dataset](https://huggingface.co/datasets/hehehe10101010/anonymous-pii-data), [model](https://huggingface.co/hehehe10101010/anonymous-pii-model).
 
 ## Resources
 
 | Resource | Link |
 | --- | --- |
-| Dataset and model (anonymous) | `[ANONYMOUS-DATA-URL]` |
+| Dataset (anonymous) | [https://huggingface.co/datasets/hehehe10101010/anonymous-pii-data](https://huggingface.co/datasets/hehehe10101010/anonymous-pii-data) |
+| Model (anonymous) | [https://huggingface.co/hehehe10101010/anonymous-pii-model](https://huggingface.co/hehehe10101010/anonymous-pii-model) |
 | Analyses and evaluations | [`experiments/`](experiments/) |
 
 ## What the paper contributes
