@@ -1,0 +1,1193 @@
+{
+ "per_language": {
+  "burmese": {
+   "docs": 20508,
+   "spans": 377002,
+   "phones": 37117,
+   "tagged_value_also_bare": 16728,
+   "docs_with_bare_repeat": 11733,
+   "docs_with_markup_span": 4291,
+   "docs_zero_spans": 0,
+   "spans_with_markup_or_newline": 12561,
+   "overlong_span_gt80": 2549,
+   "phones_sequential_filler": 510,
+   "phones_with_555": 69,
+   "phones_nanp555": 8,
+   "placeholder_names": 1,
+   "docs_with_fffd": 293,
+   "len_chars": {
+    "0.05": 568,
+    "0.5": 1097,
+    "0.95": 2497
+   },
+   "spans_per_doc": {
+    "0.05": 8,
+    "0.5": 15,
+    "0.95": 39
+   },
+   "label_counts": {
+    "date": 36886,
+    "human_name": 58357,
+    "company_name": 35656,
+    "id_number": 56841,
+    "email_address": 32131,
+    "private_url": 40147,
+    "secret": 53193,
+    "phone_number": 37117,
+    "address": 26674
+   },
+   "unique_value_ratio": {
+    "address": 0.73,
+    "company_name": 0.424,
+    "date": 0.253,
+    "email_address": 0.77,
+    "human_name": 0.255,
+    "id_number": 0.585,
+    "phone_number": 0.49,
+    "private_url": 0.81,
+    "secret": 0.63
+   },
+   "top5_names_share": 0.0611,
+   "top5_phone_share": 0.169
+  },
+  "chinese": {
+   "docs": 19154,
+   "spans": 332317,
+   "spans_with_markup_or_newline": 10597,
+   "overlong_span_gt80": 1320,
+   "phones": 36595,
+   "docs_with_bare_repeat": 6639,
+   "docs_with_markup_span": 4051,
+   "docs_zero_spans": 0,
+   "placeholder_names": 7570,
+   "phones_sequential_filler": 1166,
+   "phones_with_555": 833,
+   "tagged_value_also_bare": 7781,
+   "docs_with_fffd": 8,
+   "phones_nanp555": 28,
+   "len_chars": {
+    "0.05": 388,
+    "0.5": 683,
+    "0.95": 1693
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 32
+   },
+   "label_counts": {
+    "id_number": 46633,
+    "human_name": 47081,
+    "phone_number": 36595,
+    "email_address": 24490,
+    "address": 24199,
+    "date": 41920,
+    "private_url": 33170,
+    "secret": 48476,
+    "company_name": 29753
+   },
+   "unique_value_ratio": {
+    "address": 0.334,
+    "company_name": 0.245,
+    "date": 0.197,
+    "email_address": 0.691,
+    "human_name": 0.1,
+    "id_number": 0.657,
+    "phone_number": 0.582,
+    "private_url": 0.894,
+    "secret": 0.667
+   },
+   "top5_names_share": 0.3677,
+   "top5_phone_share": 0.0359
+  },
+  "english": {
+   "docs": 27757,
+   "spans": 472049,
+   "spans_with_markup_or_newline": 22287,
+   "overlong_span_gt80": 3475,
+   "phones": 49040,
+   "tagged_value_also_bare": 14377,
+   "docs_with_bare_repeat": 11209,
+   "docs_with_markup_span": 8161,
+   "docs_zero_spans": 0,
+   "phones_with_555": 31679,
+   "phones_nanp555": 28647,
+   "placeholder_names": 3541,
+   "phones_sequential_filler": 5165,
+   "docs_with_fffd": 2,
+   "offset_mismatch": 2,
+   "len_chars": {
+    "0.05": 679,
+    "0.5": 1333,
+    "0.95": 2822
+   },
+   "spans_per_doc": {
+    "0.05": 8,
+    "0.5": 15,
+    "0.95": 31
+   },
+   "label_counts": {
+    "human_name": 69173,
+    "company_name": 38022,
+    "id_number": 73853,
+    "private_url": 45108,
+    "secret": 71479,
+    "phone_number": 49040,
+    "email_address": 40964,
+    "date": 52666,
+    "address": 31744
+   },
+   "unique_value_ratio": {
+    "address": 0.588,
+    "company_name": 0.362,
+    "date": 0.251,
+    "email_address": 0.666,
+    "human_name": 0.277,
+    "id_number": 0.731,
+    "phone_number": 0.546,
+    "private_url": 0.91,
+    "secret": 0.706
+   },
+   "top5_names_share": 0.1512,
+   "top5_phone_share": 0.0634
+  },
+  "filipino": {
+   "docs": 16515,
+   "spans": 293539,
+   "spans_with_markup_or_newline": 14765,
+   "phones": 30166,
+   "tagged_value_also_bare": 8590,
+   "docs_with_bare_repeat": 7137,
+   "docs_with_markup_span": 4500,
+   "docs_zero_spans": 0,
+   "overlong_span_gt80": 2669,
+   "phones_sequential_filler": 1727,
+   "placeholder_names": 3479,
+   "phones_with_555": 1694,
+   "phones_nanp555": 115,
+   "offset_mismatch": 2,
+   "docs_with_fffd": 1,
+   "len_chars": {
+    "0.05": 661,
+    "0.5": 1227,
+    "0.95": 2509
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 32
+   },
+   "label_counts": {
+    "human_name": 39225,
+    "id_number": 41522,
+    "date": 35884,
+    "company_name": 25560,
+    "private_url": 30168,
+    "secret": 46106,
+    "phone_number": 30166,
+    "email_address": 23904,
+    "address": 21004
+   },
+   "unique_value_ratio": {
+    "address": 0.623,
+    "company_name": 0.346,
+    "date": 0.247,
+    "email_address": 0.67,
+    "human_name": 0.22,
+    "id_number": 0.646,
+    "phone_number": 0.565,
+    "private_url": 0.899,
+    "secret": 0.619
+   },
+   "top5_names_share": 0.2247,
+   "top5_phone_share": 0.0716
+  },
+  "french": {
+   "docs": 15459,
+   "spans": 248229,
+   "phones": 24799,
+   "docs_with_bare_repeat": 5909,
+   "docs_with_markup_span": 5617,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 2348,
+   "spans_with_markup_or_newline": 13498,
+   "overlong_span_gt80": 2299,
+   "tagged_value_also_bare": 6934,
+   "phones_with_555": 51,
+   "phones_nanp555": 22,
+   "docs_with_fffd": 3,
+   "len_chars": {
+    "0.05": 643,
+    "0.5": 1242,
+    "0.95": 2268
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 28
+   },
+   "label_counts": {
+    "human_name": 32415,
+    "company_name": 20425,
+    "date": 26825,
+    "id_number": 36462,
+    "private_url": 26157,
+    "secret": 41343,
+    "phone_number": 24799,
+    "email_address": 21006,
+    "address": 18797
+   },
+   "unique_value_ratio": {
+    "address": 0.48,
+    "company_name": 0.335,
+    "date": 0.327,
+    "email_address": 0.775,
+    "human_name": 0.244,
+    "id_number": 0.731,
+    "phone_number": 0.548,
+    "private_url": 0.955,
+    "secret": 0.76
+   },
+   "top5_names_share": 0.1396,
+   "top5_phone_share": 0.0829
+  },
+  "german": {
+   "docs": 16490,
+   "spans": 283057,
+   "phones": 26925,
+   "docs_with_bare_repeat": 6366,
+   "docs_with_markup_span": 5125,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 6930,
+   "overlong_span_gt80": 2226,
+   "tagged_value_also_bare": 7883,
+   "spans_with_markup_or_newline": 13798,
+   "placeholder_names": 373,
+   "phones_with_555": 525,
+   "phones_nanp555": 38,
+   "docs_with_fffd": 2,
+   "len_chars": {
+    "0.05": 684,
+    "0.5": 1218,
+    "0.95": 2409
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 31
+   },
+   "label_counts": {
+    "human_name": 37602,
+    "date": 33360,
+    "id_number": 42688,
+    "address": 20669,
+    "phone_number": 26925,
+    "email_address": 23957,
+    "private_url": 27830,
+    "secret": 46452,
+    "company_name": 23574
+   },
+   "unique_value_ratio": {
+    "address": 0.423,
+    "company_name": 0.378,
+    "date": 0.277,
+    "email_address": 0.796,
+    "human_name": 0.259,
+    "id_number": 0.682,
+    "phone_number": 0.663,
+    "private_url": 0.925,
+    "secret": 0.739
+   },
+   "top5_names_share": 0.1223,
+   "top5_phone_share": 0.0592
+  },
+  "indonesian": {
+   "docs": 16512,
+   "spans": 286475,
+   "phones": 30649,
+   "phones_sequential_filler": 11102,
+   "tagged_value_also_bare": 8578,
+   "docs_with_bare_repeat": 6987,
+   "docs_with_markup_span": 3998,
+   "docs_zero_spans": 0,
+   "spans_with_markup_or_newline": 11936,
+   "overlong_span_gt80": 2294,
+   "phones_with_555": 978,
+   "phones_nanp555": 194,
+   "placeholder_names": 4,
+   "offset_mismatch": 1,
+   "docs_with_fffd": 4,
+   "len_chars": {
+    "0.05": 664,
+    "0.5": 1167,
+    "0.95": 2315
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 33
+   },
+   "label_counts": {
+    "company_name": 24090,
+    "date": 34071,
+    "id_number": 44950,
+    "human_name": 35021,
+    "address": 22169,
+    "phone_number": 30649,
+    "private_url": 27078,
+    "secret": 43851,
+    "email_address": 24596
+   },
+   "unique_value_ratio": {
+    "address": 0.414,
+    "company_name": 0.25,
+    "date": 0.233,
+    "email_address": 0.61,
+    "human_name": 0.191,
+    "id_number": 0.599,
+    "phone_number": 0.341,
+    "private_url": 0.923,
+    "secret": 0.617
+   },
+   "top5_names_share": 0.314,
+   "top5_phone_share": 0.243
+  },
+  "japanese": {
+   "docs": 15124,
+   "spans": 267092,
+   "phones": 27655,
+   "phones_sequential_filler": 8493,
+   "spans_with_markup_or_newline": 9988,
+   "tagged_value_also_bare": 8214,
+   "docs_with_bare_repeat": 7074,
+   "docs_with_markup_span": 3935,
+   "docs_zero_spans": 0,
+   "placeholder_names": 3649,
+   "overlong_span_gt80": 1125,
+   "phones_with_555": 251,
+   "phones_nanp555": 109,
+   "docs_with_fffd": 7,
+   "len_chars": {
+    "0.05": 426,
+    "0.5": 725,
+    "0.95": 1683
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 32
+   },
+   "label_counts": {
+    "company_name": 24574,
+    "id_number": 39367,
+    "date": 35122,
+    "human_name": 34537,
+    "private_url": 26117,
+    "secret": 42328,
+    "phone_number": 27655,
+    "email_address": 19171,
+    "address": 18221
+   },
+   "unique_value_ratio": {
+    "address": 0.339,
+    "company_name": 0.24,
+    "date": 0.231,
+    "email_address": 0.672,
+    "human_name": 0.123,
+    "id_number": 0.593,
+    "phone_number": 0.488,
+    "private_url": 0.888,
+    "secret": 0.625
+   },
+   "top5_names_share": 0.2697,
+   "top5_phone_share": 0.2396
+  },
+  "korean": {
+   "docs": 15718,
+   "spans": 266096,
+   "phones": 29552,
+   "phones_sequential_filler": 11234,
+   "docs_with_bare_repeat": 5246,
+   "docs_with_markup_span": 3797,
+   "docs_zero_spans": 0,
+   "spans_with_markup_or_newline": 9098,
+   "tagged_value_also_bare": 5998,
+   "placeholder_names": 3502,
+   "phones_with_555": 1065,
+   "overlong_span_gt80": 1050,
+   "phones_nanp555": 99,
+   "offset_mismatch": 4,
+   "docs_with_fffd": 11,
+   "len_chars": {
+    "0.05": 418,
+    "0.5": 721,
+    "0.95": 1875
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 30
+   },
+   "label_counts": {
+    "human_name": 37323,
+    "date": 27884,
+    "private_url": 28495,
+    "id_number": 34271,
+    "phone_number": 29552,
+    "email_address": 21261,
+    "address": 19810,
+    "secret": 43494,
+    "company_name": 24006
+   },
+   "unique_value_ratio": {
+    "address": 0.296,
+    "company_name": 0.217,
+    "date": 0.212,
+    "email_address": 0.64,
+    "human_name": 0.086,
+    "id_number": 0.638,
+    "phone_number": 0.42,
+    "private_url": 0.879,
+    "secret": 0.677
+   },
+   "top5_names_share": 0.4631,
+   "top5_phone_share": 0.3191
+  },
+  "laos": {
+   "docs": 16578,
+   "spans": 269373,
+   "phones": 27930,
+   "phones_with_555": 4650,
+   "docs_with_bare_repeat": 7098,
+   "docs_with_markup_span": 3428,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 1853,
+   "tagged_value_also_bare": 10105,
+   "spans_with_markup_or_newline": 9787,
+   "overlong_span_gt80": 3862,
+   "phones_nanp555": 2904,
+   "docs_with_fffd": 443,
+   "offset_mismatch": 1,
+   "len_chars": {
+    "0.05": 612,
+    "0.5": 1192,
+    "0.95": 2295
+   },
+   "spans_per_doc": {
+    "0.05": 8,
+    "0.5": 15,
+    "0.95": 31
+   },
+   "label_counts": {
+    "id_number": 39370,
+    "human_name": 33277,
+    "date": 32669,
+    "company_name": 24674,
+    "phone_number": 27930,
+    "email_address": 25605,
+    "address": 18521,
+    "private_url": 29773,
+    "secret": 37554
+   },
+   "unique_value_ratio": {
+    "address": 0.808,
+    "company_name": 0.657,
+    "date": 0.338,
+    "email_address": 0.848,
+    "human_name": 0.552,
+    "id_number": 0.771,
+    "phone_number": 0.686,
+    "private_url": 0.867,
+    "secret": 0.775
+   },
+   "top5_names_share": 0.0423,
+   "top5_phone_share": 0.0682
+  },
+  "malay": {
+   "docs": 16303,
+   "spans": 273723,
+   "phones": 29455,
+   "phones_sequential_filler": 3406,
+   "tagged_value_also_bare": 8167,
+   "docs_with_bare_repeat": 6606,
+   "docs_with_markup_span": 4005,
+   "docs_zero_spans": 0,
+   "spans_with_markup_or_newline": 11248,
+   "overlong_span_gt80": 1969,
+   "phones_with_555": 186,
+   "phones_nanp555": 63,
+   "placeholder_names": 3,
+   "docs_with_fffd": 2,
+   "len_chars": {
+    "0.05": 672,
+    "0.5": 1164,
+    "0.95": 2259
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 29
+   },
+   "label_counts": {
+    "human_name": 35623,
+    "id_number": 40292,
+    "date": 35977,
+    "address": 20972,
+    "phone_number": 29455,
+    "company_name": 24104,
+    "private_url": 26043,
+    "secret": 38066,
+    "email_address": 23191
+   },
+   "unique_value_ratio": {
+    "address": 0.4,
+    "company_name": 0.269,
+    "date": 0.205,
+    "email_address": 0.633,
+    "human_name": 0.193,
+    "id_number": 0.621,
+    "phone_number": 0.481,
+    "private_url": 0.928,
+    "secret": 0.612
+   },
+   "top5_names_share": 0.1662,
+   "top5_phone_share": 0.0893
+  },
+  "portuguese": {
+   "docs": 14915,
+   "spans": 262475,
+   "overlong_span_gt80": 5679,
+   "phones": 25012,
+   "docs_with_bare_repeat": 4650,
+   "docs_with_markup_span": 3924,
+   "docs_zero_spans": 0,
+   "spans_with_markup_or_newline": 10683,
+   "tagged_value_also_bare": 5778,
+   "phones_sequential_filler": 4431,
+   "phones_with_555": 174,
+   "phones_nanp555": 16,
+   "docs_with_fffd": 1,
+   "len_chars": {
+    "0.05": 710,
+    "0.5": 1280,
+    "0.95": 2368
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 31
+   },
+   "label_counts": {
+    "human_name": 36057,
+    "date": 34687,
+    "id_number": 38987,
+    "address": 19661,
+    "phone_number": 25012,
+    "email_address": 21625,
+    "company_name": 21602,
+    "private_url": 26041,
+    "secret": 38803
+   },
+   "unique_value_ratio": {
+    "address": 0.467,
+    "company_name": 0.253,
+    "date": 0.233,
+    "email_address": 0.556,
+    "human_name": 0.186,
+    "id_number": 0.543,
+    "phone_number": 0.538,
+    "private_url": 0.904,
+    "secret": 0.658
+   },
+   "top5_names_share": 0.1564,
+   "top5_phone_share": 0.0473
+  },
+  "russian": {
+   "docs": 17260,
+   "spans": 294186,
+   "phones": 30441,
+   "docs_with_bare_repeat": 5262,
+   "docs_with_markup_span": 3493,
+   "docs_zero_spans": 0,
+   "tagged_value_also_bare": 6815,
+   "spans_with_markup_or_newline": 9769,
+   "overlong_span_gt80": 2694,
+   "phones_with_555": 3293,
+   "phones_sequential_filler": 4411,
+   "phones_nanp555": 82,
+   "placeholder_names": 211,
+   "docs_with_fffd": 4,
+   "offset_mismatch": 2,
+   "len_chars": {
+    "0.05": 698,
+    "0.5": 1188,
+    "0.95": 2309
+   },
+   "spans_per_doc": {
+    "0.05": 8,
+    "0.5": 15,
+    "0.95": 29
+   },
+   "label_counts": {
+    "human_name": 36685,
+    "id_number": 43591,
+    "company_name": 22918,
+    "private_url": 30938,
+    "email_address": 24117,
+    "phone_number": 30441,
+    "date": 36595,
+    "address": 23735,
+    "secret": 45166
+   },
+   "unique_value_ratio": {
+    "address": 0.34,
+    "company_name": 0.254,
+    "date": 0.183,
+    "email_address": 0.565,
+    "human_name": 0.148,
+    "id_number": 0.578,
+    "phone_number": 0.473,
+    "private_url": 0.835,
+    "secret": 0.635
+   },
+   "top5_names_share": 0.2699,
+   "top5_phone_share": 0.0978
+  },
+  "spanish": {
+   "docs": 18451,
+   "spans": 285365,
+   "phones": 28237,
+   "tagged_value_also_bare": 7831,
+   "docs_with_bare_repeat": 6616,
+   "docs_with_markup_span": 5299,
+   "docs_zero_spans": 0,
+   "phones_with_555": 1147,
+   "phones_nanp555": 195,
+   "phones_sequential_filler": 3536,
+   "spans_with_markup_or_newline": 13176,
+   "overlong_span_gt80": 2489,
+   "offset_mismatch": 4,
+   "docs_with_fffd": 3,
+   "len_chars": {
+    "0.05": 640,
+    "0.5": 1267,
+    "0.95": 2454
+   },
+   "spans_per_doc": {
+    "0.05": 8,
+    "0.5": 14,
+    "0.95": 27
+   },
+   "label_counts": {
+    "human_name": 35314,
+    "id_number": 40076,
+    "date": 28995,
+    "phone_number": 28237,
+    "email_address": 25002,
+    "address": 22735,
+    "company_name": 24845,
+    "private_url": 31107,
+    "secret": 49054
+   },
+   "unique_value_ratio": {
+    "address": 0.595,
+    "company_name": 0.317,
+    "date": 0.294,
+    "email_address": 0.753,
+    "human_name": 0.302,
+    "id_number": 0.7,
+    "phone_number": 0.671,
+    "private_url": 0.941,
+    "secret": 0.775
+   },
+   "top5_names_share": 0.1714,
+   "top5_phone_share": 0.0464
+  },
+  "tamil": {
+   "docs": 16121,
+   "spans": 279266,
+   "overlong_span_gt80": 2302,
+   "phones": 28336,
+   "spans_with_markup_or_newline": 11354,
+   "tagged_value_also_bare": 10219,
+   "docs_with_bare_repeat": 7704,
+   "docs_with_markup_span": 4478,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 3379,
+   "docs_with_fffd": 12,
+   "phones_with_555": 97,
+   "phones_nanp555": 16,
+   "offset_mismatch": 3,
+   "len_chars": {
+    "0.05": 642,
+    "0.5": 1178,
+    "0.95": 2535
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 30
+   },
+   "label_counts": {
+    "human_name": 39044,
+    "id_number": 43968,
+    "date": 31537,
+    "company_name": 23591,
+    "address": 22156,
+    "private_url": 29075,
+    "secret": 36709,
+    "email_address": 24850,
+    "phone_number": 28336
+   },
+   "unique_value_ratio": {
+    "address": 0.52,
+    "company_name": 0.335,
+    "date": 0.2,
+    "email_address": 0.705,
+    "human_name": 0.22,
+    "id_number": 0.678,
+    "phone_number": 0.466,
+    "private_url": 0.864,
+    "secret": 0.608
+   },
+   "top5_names_share": 0.2069,
+   "top5_phone_share": 0.153
+  },
+  "thai": {
+   "docs": 16018,
+   "spans": 267229,
+   "phones": 28108,
+   "docs_with_bare_repeat": 5441,
+   "docs_with_markup_span": 3715,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 3665,
+   "tagged_value_also_bare": 6807,
+   "spans_with_markup_or_newline": 9844,
+   "overlong_span_gt80": 1789,
+   "phones_with_555": 395,
+   "phones_nanp555": 166,
+   "offset_mismatch": 2,
+   "docs_with_fffd": 20,
+   "len_chars": {
+    "0.05": 607,
+    "0.5": 1104,
+    "0.95": 2168
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 15,
+    "0.95": 30
+   },
+   "label_counts": {
+    "human_name": 32770,
+    "id_number": 38594,
+    "email_address": 22930,
+    "phone_number": 28108,
+    "address": 19198,
+    "company_name": 24434,
+    "secret": 41244,
+    "private_url": 28904,
+    "date": 31047
+   },
+   "unique_value_ratio": {
+    "address": 0.531,
+    "company_name": 0.338,
+    "date": 0.328,
+    "email_address": 0.826,
+    "human_name": 0.482,
+    "id_number": 0.619,
+    "phone_number": 0.588,
+    "private_url": 0.924,
+    "secret": 0.669
+   },
+   "top5_names_share": 0.0987,
+   "top5_phone_share": 0.0951
+  },
+  "vietnamese": {
+   "docs": 38963,
+   "spans": 584796,
+   "phones": 59608,
+   "tagged_value_also_bare": 19307,
+   "docs_with_bare_repeat": 16470,
+   "docs_with_markup_span": 8440,
+   "docs_zero_spans": 0,
+   "placeholder_names": 9557,
+   "spans_with_markup_or_newline": 21573,
+   "overlong_span_gt80": 5036,
+   "phones_sequential_filler": 15806,
+   "phones_with_555": 199,
+   "phones_nanp555": 39,
+   "offset_mismatch": 1,
+   "docs_with_fffd": 8,
+   "len_chars": {
+    "0.05": 573,
+    "0.5": 1187,
+    "0.95": 2639
+   },
+   "spans_per_doc": {
+    "0.05": 7,
+    "0.5": 14,
+    "0.95": 27
+   },
+   "label_counts": {
+    "human_name": 81431,
+    "id_number": 87494,
+    "date": 77592,
+    "phone_number": 59608,
+    "email_address": 52611,
+    "address": 44750,
+    "private_url": 53286,
+    "secret": 82729,
+    "company_name": 45295
+   },
+   "unique_value_ratio": {
+    "address": 0.406,
+    "company_name": 0.256,
+    "date": 0.197,
+    "email_address": 0.557,
+    "human_name": 0.101,
+    "id_number": 0.586,
+    "phone_number": 0.388,
+    "private_url": 0.925,
+    "secret": 0.628
+   },
+   "top5_names_share": 0.2335,
+   "top5_phone_share": 0.1413
+  }
+ },
+ "total": {
+  "docs": 317846,
+  "spans": 5342269,
+  "phones": 549625,
+  "tagged_value_also_bare": 160112,
+  "docs_with_bare_repeat": 128147,
+  "docs_with_markup_span": 80257,
+  "docs_zero_spans": 0,
+  "spans_with_markup_or_newline": 215962,
+  "overlong_span_gt80": 44827,
+  "phones_sequential_filler": 89162,
+  "phones_with_555": 47286,
+  "phones_nanp555": 32741,
+  "placeholder_names": 31890,
+  "docs_with_fffd": 824,
+  "offset_mismatch": 22
+ },
+ "generators": {
+  "mistral-medium-2505": {
+   "docs": 145873,
+   "repaired": 50841,
+   "spans": 2783867,
+   "bad_span": 130764,
+   "repair_rate": 0.3485,
+   "bad_span_rate": 0.047
+  },
+  "gpt-oss-120b": {
+   "docs": 55652,
+   "repaired": 23215,
+   "spans": 733323,
+   "bad_span": 41030,
+   "fffd": 72,
+   "repair_rate": 0.4171,
+   "bad_span_rate": 0.056
+  },
+  "qwen/qwen3-32b": {
+   "docs": 23447,
+   "repaired": 16859,
+   "spans": 342083,
+   "bad_span": 27373,
+   "fffd": 36,
+   "repair_rate": 0.719,
+   "bad_span_rate": 0.08
+  },
+  "glm-4.5-flash": {
+   "docs": 22258,
+   "repaired": 7624,
+   "spans": 333013,
+   "bad_span": 14586,
+   "fffd": 696,
+   "repair_rate": 0.3425,
+   "bad_span_rate": 0.0438
+  },
+  "gpt-5.4-mini": {
+   "docs": 19147,
+   "repaired": 2781,
+   "spans": 378211,
+   "bad_span": 3806,
+   "fffd": 2,
+   "repair_rate": 0.1452,
+   "bad_span_rate": 0.0101
+  },
+  "google/gemma-4-31b-it:free": {
+   "docs": 12694,
+   "repaired": 3311,
+   "spans": 209791,
+   "bad_span": 10658,
+   "repair_rate": 0.2608,
+   "bad_span_rate": 0.0508
+  },
+  "<EMPTY>": {
+   "docs": 11513,
+   "repaired": 0,
+   "spans": 193484,
+   "bad_span": 17540,
+   "repair_rate": 0.0,
+   "bad_span_rate": 0.0907
+  },
+  "mimo-v2.5-pro": {
+   "docs": 11311,
+   "repaired": 0,
+   "spans": 108712,
+   "bad_span": 1526,
+   "fffd": 1,
+   "repair_rate": 0.0,
+   "bad_span_rate": 0.014
+  },
+  "@cf/openai/gpt-oss-120b": {
+   "docs": 7896,
+   "repaired": 3205,
+   "spans": 105751,
+   "bad_span": 5465,
+   "fffd": 5,
+   "repair_rate": 0.4059,
+   "bad_span_rate": 0.0517
+  },
+  "deepseek-v4-flash-free": {
+   "docs": 3369,
+   "repaired": 452,
+   "spans": 40728,
+   "bad_span": 3394,
+   "repair_rate": 0.1342,
+   "bad_span_rate": 0.0833
+  },
+  "meta/llama-3.3-70b-instruct": {
+   "docs": 2709,
+   "repaired": 917,
+   "spans": 77669,
+   "bad_span": 2476,
+   "fffd": 9,
+   "repair_rate": 0.3385,
+   "bad_span_rate": 0.0319
+  },
+  "qwen3-235b": {
+   "docs": 793,
+   "repaired": 362,
+   "spans": 14846,
+   "bad_span": 1019,
+   "fffd": 1,
+   "repair_rate": 0.4565,
+   "bad_span_rate": 0.0686
+  },
+  "MiniMax-M3": {
+   "docs": 528,
+   "repaired": 366,
+   "spans": 13539,
+   "bad_span": 624,
+   "fffd": 2,
+   "repair_rate": 0.6932,
+   "bad_span_rate": 0.0461
+  },
+  "gemini-3.5-flash": {
+   "docs": 341,
+   "repaired": 118,
+   "spans": 4979,
+   "bad_span": 512,
+   "repair_rate": 0.346,
+   "bad_span_rate": 0.1028
+  },
+  "local_new_data_unknown": {
+   "docs": 299,
+   "repaired": 0,
+   "spans": 2043,
+   "repair_rate": 0.0,
+   "bad_span_rate": 0.0
+  },
+  "@cf/zai-org/glm-4.7-flash": {
+   "docs": 8,
+   "repaired": 5,
+   "spans": 85,
+   "bad_span": 3,
+   "repair_rate": 0.625,
+   "bad_span_rate": 0.0353
+  },
+  "Meta-Llama-3.3-70B-Instruct": {
+   "docs": 8,
+   "repaired": 1,
+   "spans": 145,
+   "bad_span": 13,
+   "repair_rate": 0.125,
+   "bad_span_rate": 0.0897
+  }
+ },
+ "scenario_counts": [
+  [
+   "private_portal_secret_focus",
+   294068
+  ],
+  [
+   "<EMPTY>",
+   11513
+  ],
+  [
+   "general_consumer_admin_support",
+   5013
+  ],
+  [
+   "hr_employer_school_insurance_telecom_admin",
+   4030
+  ],
+  [
+   "code_log_security_account_recovery",
+   2268
+  ],
+  [
+   "local_new_data_clinical_forms",
+   299
+  ],
+  [
+   "public_negative_contrast",
+   286
+  ],
+  [
+   "adversarial_obfuscation",
+   201
+  ],
+  [
+   "structured_payload",
+   148
+  ],
+  [
+   "all_labels_dense",
+   14
+  ],
+  [
+   "voice_ocr_transcription",
+   6
+  ]
+ ],
+ "document_type_count": 45,
+ "document_type_top": [
+  [
+   "pharmacy refill request",
+   33222
+  ],
+  [
+   "discharge summary",
+   30238
+  ],
+  [
+   "lab result notification",
+   29774
+  ],
+  [
+   "telehealth triage note",
+   26636
+  ],
+  [
+   "patient portal access log",
+   25540
+  ],
+  [
+   "insurance claim note",
+   24464
+  ],
+  [
+   "referral letter",
+   23634
+  ],
+  [
+   "HL7-style admission/update message",
+   21297
+  ],
+  [
+   "outpatient note",
+   19492
+  ],
+  [
+   "medical bill / invoice",
+   19328
+  ],
+  [
+   "appointment reminder",
+   15951
+  ],
+  [
+   "<EMPTY>",
+   11513
+  ],
+  [
+   "FHIR-like Patient + Encounter resource",
+   10981
+  ],
+  [
+   "ambient voice scribe transcript",
+   8817
+  ],
+  [
+   "OCR-scanned clinical note",
+   5349
+  ]
+ ],
+ "format_count": 25,
+ "format_top": [
+  [
+   "JSON-like object",
+   42355
+  ],
+  [
+   "messy nurse/admin note",
+   36000
+  ],
+  [
+   "table-like rows",
+   34203
+  ],
+  [
+   "Markdown sections",
+   29316
+  ],
+  [
+   "voice-scribe transcript",
+   28734
+  ],
+  [
+   "HL7-like pipe-delimited text",
+   26583
+  ],
+  [
+   "FHIR-like JSON",
+   25827
+  ],
+  [
+   "patient portal audit log",
+   25782
+  ],
+  [
+   "OCR text with light noise",
+   25461
+  ],
+  [
+   "plain clinical note",
+   13423
+  ],
+  [
+   "<EMPTY>",
+   11513
+  ],
+  [
+   "clinical dialogue transcript",
+   10593
+  ],
+  [
+   "form fields",
+   1672
+  ],
+  [
+   "plain support note",
+   1492
+  ],
+  [
+   "chat transcript",
+   1470
+  ]
+ ]
+}

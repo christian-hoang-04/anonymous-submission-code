@@ -1,0 +1,24 @@
+{
+ "korean": {
+  "docs": 15718,
+  "near_dup": 4,
+  "near_dup_digitmasked": 18
+ },
+ "laos": {
+  "docs": 16578,
+  "near_dup": 0,
+  "near_dup_digitmasked": 0
+ },
+ "malay": {
+  "docs": 16303,
+  "near_dup": 1,
+  "near_dup_digitmasked": 10
+ },
+ "_total": {
+  "docs": 48599,
+  "near_dup": 5,
+  "near_dup_digitmasked": 28,
+  "threshold": 0.8,
+  "num_perm": 64
+ }
+}

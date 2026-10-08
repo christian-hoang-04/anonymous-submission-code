@@ -1,0 +1,192 @@
+{
+ "mixed_rows": 1000000,
+ "composition": [
+  [
+   "v1",
+   572760
+  ],
+  [
+   "v2",
+   226546
+  ],
+  [
+   "nemotron",
+   99885
+  ],
+  [
+   "gretel",
+   54998
+  ],
+  [
+   "ai4privacy",
+   41950
+  ],
+  [
+   "creddata",
+   3861
+  ]
+ ],
+ "composition_by_language": {
+  "nemotron": {
+   "english": 99885
+  },
+  "v1": {
+   "laos": 31272,
+   "russian": 31140,
+   "korean": 31677,
+   "vietnamese": 55549,
+   "indonesian": 31368,
+   "german": 31478,
+   "chinese": 30290,
+   "japanese": 32208,
+   "burmese": 29562,
+   "spanish": 30588,
+   "malay": 31668,
+   "portuguese": 32111,
+   "tamil": 31671,
+   "thai": 30742,
+   "english": 48027,
+   "filipino": 31404,
+   "french": 32005
+  },
+  "gretel": {
+   "english": 54998
+  },
+  "v2": {
+   "indonesian": 10566,
+   "malay": 10266,
+   "portuguese": 9823,
+   "spanish": 11346,
+   "english": 27757,
+   "korean": 10257,
+   "thai": 11192,
+   "tamil": 10263,
+   "vietnamese": 38963,
+   "filipino": 10530,
+   "burmese": 12372,
+   "chinese": 11644,
+   "laos": 10662,
+   "russian": 10794,
+   "french": 9929,
+   "german": 10456,
+   "japanese": 9726
+  },
+  "ai4privacy": {
+   "english": 20975,
+   "vietnamese": 20975
+  },
+  "creddata": {
+   "english": 3861
+  }
+ },
+ "overlap": {
+  "anonymous-placeholder/external:ai4privacy_de/eval-00000-of-00001.parquet": {
+   "rows": 23616,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_en/eval-00000-of-00001.parquet": {
+   "rows": 40580,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_es/eval-00000-of-00001.parquet": {
+   "rows": 17877,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_fil/eval-00000-of-00001.parquet": {
+   "rows": 5087,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_fr/eval-00000-of-00001.parquet": {
+   "rows": 25690,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_id/eval-00000-of-00001.parquet": {
+   "rows": 5363,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_ja/eval-00000-of-00001.parquet": {
+   "rows": 5027,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_ko/eval-00000-of-00001.parquet": {
+   "rows": 5230,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_ms/eval-00000-of-00001.parquet": {
+   "rows": 5089,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_pt/eval-00000-of-00001.parquet": {
+   "rows": 8665,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_vi/eval-00000-of-00001.parquet": {
+   "rows": 5195,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:ai4privacy_zh/eval-00000-of-00001.parquet": {
+   "rows": 4971,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:creddata_en/eval-00000-of-00001.parquet": {
+   "rows": 1403,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:gretel_en/eval-00000-of-00001.parquet": {
+   "rows": 5000,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/external:nemotron_en/eval-00000-of-00001.parquet": {
+   "rows": 99892,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/v2:eval-challenge/train-00000-of-00001.parquet": {
+   "rows": 3400,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/v2:eval-v2/train-00000-of-00001.parquet": {
+   "rows": 850,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  },
+  "anonymous-placeholder/v2:eval/train-00000-of-00001.parquet": {
+   "rows": 1700,
+   "exact_in_train": 0,
+   "normalized_in_train": 0,
+   "exact_sources": {}
+  }
+ }
+}

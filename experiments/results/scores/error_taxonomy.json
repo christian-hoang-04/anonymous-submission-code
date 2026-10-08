@@ -1,0 +1,102 @@
+{
+ "grascco_phi": {
+  "gliner2": {
+   "match": 379,
+   "missed": 726,
+   "boundary": 156,
+   "boundary_fp": 119,
+   "spurious_fp": 24,
+   "label": 12,
+   "label_fp": 14
+  },
+  "lfm25": {
+   "match": 152,
+   "missed": 1050,
+   "spurious_fp": 7,
+   "boundary": 67,
+   "boundary_fp": 58,
+   "label": 4,
+   "label_fp": 4,
+   "ignored_region": 1
+  },
+  "ours": {
+   "match": 616,
+   "missed": 398,
+   "boundary": 257,
+   "boundary_fp": 220,
+   "spurious_fp": 2,
+   "label": 2,
+   "label_fp": 2
+  },
+  "openmed": {
+   "match": 791,
+   "missed": 181,
+   "boundary": 271,
+   "boundary_fp": 328,
+   "label": 30,
+   "spurious_fp": 132,
+   "label_fp": 32,
+   "ignored_region": 7
+  },
+  "opf": {
+   "missed": 493,
+   "match": 509,
+   "boundary": 257,
+   "boundary_fp": 189,
+   "spurious_fp": 67,
+   "label": 14,
+   "label_fp": 11,
+   "ignored_region": 4
+  }
+ },
+ "meddocan_test": {
+  "gliner2": {
+   "label": 93,
+   "match": 3040,
+   "boundary": 398,
+   "missed": 1135,
+   "label_fp": 194,
+   "boundary_fp": 220,
+   "ignored_region": 40,
+   "spurious_fp": 42
+  },
+  "lfm25": {
+   "label": 77,
+   "match": 1633,
+   "missed": 2717,
+   "boundary": 239,
+   "boundary_fp": 246,
+   "label_fp": 80,
+   "spurious_fp": 39
+  },
+  "ours": {
+   "label": 233,
+   "match": 2983,
+   "missed": 784,
+   "boundary": 666,
+   "label_fp": 225,
+   "boundary_fp": 400,
+   "spurious_fp": 9
+  },
+  "openmed": {
+   "boundary": 1163,
+   "match": 2634,
+   "missed": 784,
+   "boundary_fp": 1451,
+   "label": 85,
+   "label_fp": 92,
+   "spurious_fp": 101,
+   "ignored_region": 1
+  },
+  "opf": {
+   "match": 2396,
+   "missed": 1261,
+   "boundary": 642,
+   "label": 367,
+   "boundary_fp": 479,
+   "label_fp": 326,
+   "spurious_fp": 27,
+   "ignored_region": 1
+  }
+ }
+}
