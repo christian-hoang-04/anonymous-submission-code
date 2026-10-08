@@ -50,7 +50,7 @@ dev = [
   "pandas-stubs>=3.0.3.260530",
   "pytest>=9.0.3,<10",
   "pytest-cov>=7.0.0",
-  "pymupdf==1.28.0",
+  "pymupdf==1.28.2",
   "respx>=0.22",
   "ruff>=0.16.0",
 ]
