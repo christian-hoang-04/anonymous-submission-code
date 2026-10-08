@@ -30,7 +30,7 @@ pdf-redaction = [
 ]
 training = [
   "onnx==1.22.0",
-  "onnxruntime==1.28.0",
+  "onnxruntime==1.30.0",
   "peft>=0.19.1",
   "torch>=2.13.0,<2.14",
   "transformers==5.14.1",
