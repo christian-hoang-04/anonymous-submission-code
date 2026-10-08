@@ -1,0 +1,24 @@
+{
+ "german": {
+  "docs": 16490,
+  "near_dup": 1,
+  "near_dup_digitmasked": 2
+ },
+ "indonesian": {
+  "docs": 16512,
+  "near_dup": 9,
+  "near_dup_digitmasked": 31
+ },
+ "japanese": {
+  "docs": 15124,
+  "near_dup": 1,
+  "near_dup_digitmasked": 5
+ },
+ "_total": {
+  "docs": 48126,
+  "near_dup": 11,
+  "near_dup_digitmasked": 38,
+  "threshold": 0.8,
+  "num_perm": 64
+ }
+}

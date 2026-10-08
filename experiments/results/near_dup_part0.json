@@ -1,0 +1,3 @@
+{"burmese": {"docs": 20508, "near_dup": 3, "near_dup_digitmasked": 7},
+ "chinese": {"docs": 19154, "near_dup": 3, "near_dup_digitmasked": 5},
+ "_note": "transcribed from the console output of the first (serial) near_dup.py run, which was stopped for speed; same script and parameters (threshold 0.8, 64 permutations)"}

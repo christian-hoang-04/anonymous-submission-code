@@ -1,0 +1,24 @@
+{
+ "english": {
+  "docs": 27757,
+  "near_dup": 3,
+  "near_dup_digitmasked": 12
+ },
+ "filipino": {
+  "docs": 16515,
+  "near_dup": 0,
+  "near_dup_digitmasked": 7
+ },
+ "french": {
+  "docs": 15459,
+  "near_dup": 2,
+  "near_dup_digitmasked": 13
+ },
+ "_total": {
+  "docs": 59731,
+  "near_dup": 5,
+  "near_dup_digitmasked": 32,
+  "threshold": 0.8,
+  "num_perm": 64
+ }
+}

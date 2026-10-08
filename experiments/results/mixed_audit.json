@@ -1,0 +1,299 @@
+{
+ "nemotron": {
+  "docs": 99885,
+  "spans": 644145,
+  "docs_markup_span": 146,
+  "docs_bare_repeat": 4864,
+  "docs_zero_spans": 0,
+  "phones": 32369,
+  "phones_555_loose": 1073,
+  "phones_nanp555": 906,
+  "phones_seq": 1035,
+  "markup_spans": 282,
+  "placeholder_names": 1048,
+  "overlong_spans": 1,
+  "len_chars": {
+   "0.05": 256,
+   "0.5": 774,
+   "0.95": 2535
+  },
+  "spans_per_doc": {
+   "0.05": 2,
+   "0.5": 6,
+   "0.95": 13
+  },
+  "label_counts": {
+   "id_number": 161301,
+   "date": 104204,
+   "address": 105438,
+   "company_name": 85021,
+   "human_name": 79361,
+   "phone_number": 32369,
+   "secret": 26704,
+   "email_address": 49747
+  },
+  "unique_value_ratio": {
+   "id_number": 0.563,
+   "date": 0.212,
+   "address": 0.264,
+   "company_name": 0.229,
+   "human_name": 0.395,
+   "phone_number": 0.795,
+   "secret": 0.543,
+   "email_address": 0.834
+  },
+  "languages": {
+   "english": 99885
+  }
+ },
+ "kaleidopii-v1": {
+  "docs": 572760,
+  "spans": 11918782,
+  "phones": 1020884,
+  "phones_555_loose": 188825,
+  "phones_nanp555": 81611,
+  "phones_seq": 319944,
+  "docs_markup_span": 1094,
+  "docs_bare_repeat": 159706,
+  "docs_zero_spans": 0,
+  "placeholder_names": 68834,
+  "overlong_spans": 8876,
+  "docs_fffd": 7730,
+  "markup_spans": 2216,
+  "len_chars": {
+   "0.05": 515,
+   "0.5": 2180,
+   "0.95": 10554
+  },
+  "spans_per_doc": {
+   "0.05": 7,
+   "0.5": 16,
+   "0.95": 50
+  },
+  "label_counts": {
+   "id_number": 2924346,
+   "date": 2668091,
+   "human_name": 3349048,
+   "phone_number": 1020884,
+   "address": 1433293,
+   "email_address": 512903,
+   "company_name": 10217
+  },
+  "unique_value_ratio": {
+   "id_number": 0.566,
+   "date": 0.117,
+   "human_name": 0.196,
+   "phone_number": 0.226,
+   "address": 0.431,
+   "email_address": 0.76,
+   "company_name": 0.309
+  },
+  "languages": {
+   "laos": 31272,
+   "russian": 31140,
+   "korean": 31677,
+   "vietnamese": 55549,
+   "indonesian": 31368,
+   "german": 31478,
+   "chinese": 30290,
+   "japanese": 32208,
+   "burmese": 29562,
+   "spanish": 30588,
+   "malay": 31668,
+   "portuguese": 32111,
+   "tamil": 31671,
+   "thai": 30742,
+   "english": 48027,
+   "filipino": 31404,
+   "french": 32005
+  }
+ },
+ "gretel": {
+  "docs": 54998,
+  "spans": 232987,
+  "phones": 9421,
+  "phones_555_loose": 44,
+  "phones_nanp555": 5,
+  "phones_seq": 0,
+  "docs_markup_span": 10,
+  "docs_bare_repeat": 0,
+  "docs_zero_spans": 0,
+  "markup_spans": 10,
+  "len_chars": {
+   "0.05": 66,
+   "0.5": 179,
+   "0.95": 485
+  },
+  "spans_per_doc": {
+   "0.05": 2,
+   "0.5": 4,
+   "0.95": 6
+  },
+  "label_counts": {
+   "human_name": 38609,
+   "secret": 1478,
+   "email_address": 11995,
+   "phone_number": 9421,
+   "id_number": 106788,
+   "address": 20165,
+   "date": 42404,
+   "company_name": 2127
+  },
+  "unique_value_ratio": {
+   "human_name": 0.584,
+   "secret": 1.0,
+   "email_address": 0.984,
+   "phone_number": 0.999,
+   "id_number": 0.999,
+   "address": 0.952,
+   "date": 0.803,
+   "company_name": 0.957
+  },
+  "languages": {
+   "english": 54998
+  }
+ },
+ "kaleidopii-v2": {
+  "docs": 226546,
+  "spans": 3777894,
+  "phones": 388999,
+  "phones_555_loose": 41663,
+  "phones_nanp555": 31305,
+  "phones_seq": 64754,
+  "docs_markup_span": 57174,
+  "docs_bare_repeat": 91426,
+  "docs_zero_spans": 0,
+  "placeholder_names": 24874,
+  "markup_spans": 153296,
+  "docs_fffd": 523,
+  "overlong_spans": 31703,
+  "offset_mismatch": 16,
+  "len_chars": {
+   "0.05": 538,
+   "0.5": 1144,
+   "0.95": 2437
+  },
+  "spans_per_doc": {
+   "0.05": 8,
+   "0.5": 15,
+   "0.95": 30
+  },
+  "label_counts": {
+   "human_name": 511541,
+   "id_number": 559922,
+   "private_url": 378582,
+   "phone_number": 388999,
+   "secret": 568667,
+   "email_address": 320893,
+   "address": 278896,
+   "company_name": 319986,
+   "date": 450408
+  },
+  "unique_value_ratio": {
+   "human_name": 0.234,
+   "id_number": 0.616,
+   "private_url": 0.89,
+   "phone_number": 0.528,
+   "secret": 0.611,
+   "email_address": 0.689,
+   "address": 0.505,
+   "company_name": 0.337,
+   "date": 0.21
+  },
+  "languages": {
+   "indonesian": 10566,
+   "malay": 10266,
+   "portuguese": 9823,
+   "spanish": 11346,
+   "english": 27757,
+   "korean": 10257,
+   "thai": 11192,
+   "tamil": 10263,
+   "vietnamese": 38963,
+   "filipino": 10530,
+   "burmese": 12372,
+   "chinese": 11644,
+   "laos": 10662,
+   "russian": 10794,
+   "french": 9929,
+   "german": 10456,
+   "japanese": 9726
+  }
+ },
+ "ai4privacy": {
+  "docs": 41950,
+  "spans": 241100,
+  "phones": 17718,
+  "phones_555_loose": 135,
+  "phones_nanp555": 5,
+  "phones_seq": 0,
+  "docs_markup_span": 0,
+  "docs_bare_repeat": 36,
+  "docs_zero_spans": 0,
+  "len_chars": {
+   "0.05": 110,
+   "0.5": 277,
+   "0.95": 859
+  },
+  "spans_per_doc": {
+   "0.05": 2,
+   "0.5": 5,
+   "0.95": 13
+  },
+  "label_counts": {
+   "email_address": 23750,
+   "phone_number": 17718,
+   "human_name": 42303,
+   "address": 65825,
+   "id_number": 52121,
+   "date": 39358,
+   "company_name": 24,
+   "secret": 1
+  },
+  "unique_value_ratio": {
+   "email_address": 0.656,
+   "phone_number": 0.917,
+   "human_name": 0.894,
+   "address": 0.311,
+   "id_number": 0.955,
+   "date": 0.685,
+   "company_name": 0.875,
+   "secret": 1.0
+  },
+  "languages": {
+   "english": 20975,
+   "vietnamese": 20975
+  }
+ },
+ "creddata": {
+  "docs": 3861,
+  "spans": 12415,
+  "docs_markup_span": 460,
+  "docs_bare_repeat": 0,
+  "docs_zero_spans": 0,
+  "markup_spans": 1186,
+  "len_chars": {
+   "0.05": 414,
+   "0.5": 1017,
+   "0.95": 4200
+  },
+  "spans_per_doc": {
+   "0.05": 1,
+   "0.5": 1,
+   "0.95": 6
+  },
+  "label_counts": {
+   "secret": 10098,
+   "id_number": 2190,
+   "private_url": 127
+  },
+  "unique_value_ratio": {
+   "secret": 0.996,
+   "id_number": 1.0,
+   "private_url": 0.984
+  },
+  "languages": {
+   "english": 3861
+  }
+ }
+}

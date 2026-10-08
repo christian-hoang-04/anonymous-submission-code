@@ -1,0 +1,792 @@
+{
+ "train_unique_values": {
+  "nemotron": 273275,
+  "kaleido": 5728778,
+  "gretel": 207223,
+  "ai4privacy": 166888,
+  "creddata": 12376
+ },
+ "eval": {
+  "ai4privacy_de": {
+   "spans": 122681,
+   "in_kaleido_train": 12337,
+   "in_same_source_train": 15168,
+   "per_label": {
+    "human_name": {
+     "n": 21152,
+     "kaleido": 226,
+     "same_source": 160
+    },
+    "address": {
+     "n": 34529,
+     "kaleido": 9673,
+     "same_source": 7823
+    },
+    "date": {
+     "n": 19977,
+     "kaleido": 2400,
+     "same_source": 3423
+    },
+    "id_number": {
+     "n": 25893,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "email_address": {
+     "n": 12046,
+     "kaleido": 38,
+     "same_source": 3762
+    },
+    "phone_number": {
+     "n": 9084,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_en": {
+   "spans": 231761,
+   "in_kaleido_train": 15516,
+   "in_same_source_train": 73391,
+   "per_label": {
+    "human_name": {
+     "n": 40929,
+     "kaleido": 459,
+     "same_source": 1981
+    },
+    "date": {
+     "n": 37866,
+     "kaleido": 4282,
+     "same_source": 14715
+    },
+    "address": {
+     "n": 64473,
+     "kaleido": 10719,
+     "same_source": 46183
+    },
+    "id_number": {
+     "n": 48774,
+     "kaleido": 0,
+     "same_source": 1346
+    },
+    "email_address": {
+     "n": 22891,
+     "kaleido": 56,
+     "same_source": 8222
+    },
+    "phone_number": {
+     "n": 16823,
+     "kaleido": 0,
+     "same_source": 944
+    },
+    "company_name": {
+     "n": 5,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_es": {
+   "spans": 94407,
+   "in_kaleido_train": 6752,
+   "in_same_source_train": 10001,
+   "per_label": {
+    "human_name": {
+     "n": 16364,
+     "kaleido": 171,
+     "same_source": 134
+    },
+    "date": {
+     "n": 15357,
+     "kaleido": 1767,
+     "same_source": 1685
+    },
+    "id_number": {
+     "n": 21262,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "address": {
+     "n": 25272,
+     "kaleido": 4796,
+     "same_source": 5277
+    },
+    "email_address": {
+     "n": 9214,
+     "kaleido": 18,
+     "same_source": 2905
+    },
+    "phone_number": {
+     "n": 6938,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_fil": {
+   "spans": 30011,
+   "in_kaleido_train": 4672,
+   "in_same_source_train": 5078,
+   "per_label": {
+    "human_name": {
+     "n": 5622,
+     "kaleido": 690,
+     "same_source": 34
+    },
+    "id_number": {
+     "n": 6679,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "date": {
+     "n": 4971,
+     "kaleido": 807,
+     "same_source": 1484
+    },
+    "email_address": {
+     "n": 2788,
+     "kaleido": 7,
+     "same_source": 867
+    },
+    "phone_number": {
+     "n": 2128,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "address": {
+     "n": 7808,
+     "kaleido": 3168,
+     "same_source": 2693
+    },
+    "company_name": {
+     "n": 14,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_fr": {
+   "spans": 139404,
+   "in_kaleido_train": 9889,
+   "in_same_source_train": 21579,
+   "per_label": {
+    "human_name": {
+     "n": 24270,
+     "kaleido": 271,
+     "same_source": 217
+    },
+    "date": {
+     "n": 23093,
+     "kaleido": 2824,
+     "same_source": 2581
+    },
+    "address": {
+     "n": 38978,
+     "kaleido": 6758,
+     "same_source": 14696
+    },
+    "phone_number": {
+     "n": 9833,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "email_address": {
+     "n": 13267,
+     "kaleido": 36,
+     "same_source": 4085
+    },
+    "id_number": {
+     "n": 29963,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_id": {
+   "spans": 30844,
+   "in_kaleido_train": 3979,
+   "in_same_source_train": 4217,
+   "per_label": {
+    "id_number": {
+     "n": 6934,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "address": {
+     "n": 8251,
+     "kaleido": 2824,
+     "same_source": 1756
+    },
+    "date": {
+     "n": 5095,
+     "kaleido": 748,
+     "same_source": 1525
+    },
+    "human_name": {
+     "n": 5330,
+     "kaleido": 399,
+     "same_source": 34
+    },
+    "email_address": {
+     "n": 2977,
+     "kaleido": 8,
+     "same_source": 902
+    },
+    "phone_number": {
+     "n": 2247,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 9,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_ja": {
+   "spans": 29733,
+   "in_kaleido_train": 1097,
+   "in_same_source_train": 1703,
+   "per_label": {
+    "human_name": {
+     "n": 4993,
+     "kaleido": 120,
+     "same_source": 10
+    },
+    "date": {
+     "n": 5145,
+     "kaleido": 819,
+     "same_source": 1501
+    },
+    "address": {
+     "n": 8428,
+     "kaleido": 157,
+     "same_source": 0
+    },
+    "email_address": {
+     "n": 2795,
+     "kaleido": 1,
+     "same_source": 192
+    },
+    "phone_number": {
+     "n": 2145,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "id_number": {
+     "n": 6203,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 24,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_ko": {
+   "spans": 28166,
+   "in_kaleido_train": 3027,
+   "in_same_source_train": 2269,
+   "per_label": {
+    "id_number": {
+     "n": 6431,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "address": {
+     "n": 7519,
+     "kaleido": 2349,
+     "same_source": 1614
+    },
+    "human_name": {
+     "n": 4880,
+     "kaleido": 122,
+     "same_source": 7
+    },
+    "date": {
+     "n": 4564,
+     "kaleido": 556,
+     "same_source": 491
+    },
+    "email_address": {
+     "n": 2652,
+     "kaleido": 0,
+     "same_source": 157
+    },
+    "phone_number": {
+     "n": 2098,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 21,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_ms": {
+   "spans": 29749,
+   "in_kaleido_train": 4270,
+   "in_same_source_train": 4196,
+   "per_label": {
+    "id_number": {
+     "n": 6380,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "date": {
+     "n": 5227,
+     "kaleido": 794,
+     "same_source": 1572
+    },
+    "address": {
+     "n": 8061,
+     "kaleido": 3002,
+     "same_source": 1704
+    },
+    "email_address": {
+     "n": 2752,
+     "kaleido": 9,
+     "same_source": 825
+    },
+    "human_name": {
+     "n": 5126,
+     "kaleido": 465,
+     "same_source": 95
+    },
+    "phone_number": {
+     "n": 2191,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 12,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_pt": {
+   "spans": 46186,
+   "in_kaleido_train": 5194,
+   "in_same_source_train": 6391,
+   "per_label": {
+    "date": {
+     "n": 7418,
+     "kaleido": 957,
+     "same_source": 2208
+    },
+    "id_number": {
+     "n": 10349,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "address": {
+     "n": 12683,
+     "kaleido": 4160,
+     "same_source": 2729
+    },
+    "human_name": {
+     "n": 7884,
+     "kaleido": 65,
+     "same_source": 63
+    },
+    "phone_number": {
+     "n": 3358,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "email_address": {
+     "n": 4494,
+     "kaleido": 12,
+     "same_source": 1391
+    }
+   }
+  },
+  "ai4privacy_vi": {
+   "spans": 30408,
+   "in_kaleido_train": 3597,
+   "in_same_source_train": 15408,
+   "per_label": {
+    "human_name": {
+     "n": 5291,
+     "kaleido": 584,
+     "same_source": 1149
+    },
+    "date": {
+     "n": 4941,
+     "kaleido": 761,
+     "same_source": 2931
+    },
+    "address": {
+     "n": 8448,
+     "kaleido": 2251,
+     "same_source": 8103
+    },
+    "id_number": {
+     "n": 6463,
+     "kaleido": 0,
+     "same_source": 975
+    },
+    "phone_number": {
+     "n": 2297,
+     "kaleido": 0,
+     "same_source": 620
+    },
+    "email_address": {
+     "n": 2960,
+     "kaleido": 0,
+     "same_source": 1630
+    },
+    "company_name": {
+     "n": 7,
+     "kaleido": 1,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "ai4privacy_zh": {
+   "spans": 27333,
+   "in_kaleido_train": 2534,
+   "in_same_source_train": 3210,
+   "per_label": {
+    "human_name": {
+     "n": 4526,
+     "kaleido": 77,
+     "same_source": 9
+    },
+    "address": {
+     "n": 6997,
+     "kaleido": 1712,
+     "same_source": 1484
+    },
+    "date": {
+     "n": 4925,
+     "kaleido": 745,
+     "same_source": 1559
+    },
+    "id_number": {
+     "n": 5986,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "email_address": {
+     "n": 2730,
+     "kaleido": 0,
+     "same_source": 158
+    },
+    "phone_number": {
+     "n": 2158,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 10,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "creddata_en": {
+   "spans": 2204,
+   "in_kaleido_train": 0,
+   "in_same_source_train": 0,
+   "per_label": {
+    "id_number": {
+     "n": 236,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "private_url": {
+     "n": 96,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "secret": {
+     "n": 1872,
+     "kaleido": 0,
+     "same_source": 0
+    }
+   }
+  },
+  "gretel_en": {
+   "spans": 21355,
+   "in_kaleido_train": 2047,
+   "in_same_source_train": 3291,
+   "per_label": {
+    "human_name": {
+     "n": 3547,
+     "kaleido": 1198,
+     "same_source": 1698
+    },
+    "email_address": {
+     "n": 1049,
+     "kaleido": 1,
+     "same_source": 44
+    },
+    "phone_number": {
+     "n": 904,
+     "kaleido": 0,
+     "same_source": 2
+    },
+    "address": {
+     "n": 1847,
+     "kaleido": 61,
+     "same_source": 123
+    },
+    "id_number": {
+     "n": 9897,
+     "kaleido": 1,
+     "same_source": 18
+    },
+    "date": {
+     "n": 3805,
+     "kaleido": 786,
+     "same_source": 1391
+    },
+    "secret": {
+     "n": 121,
+     "kaleido": 0,
+     "same_source": 0
+    },
+    "company_name": {
+     "n": 185,
+     "kaleido": 0,
+     "same_source": 15
+    }
+   }
+  },
+  "nemotron_en": {
+   "spans": 637280,
+   "in_kaleido_train": 196107,
+   "in_same_source_train": 263308,
+   "per_label": {
+    "human_name": {
+     "n": 112060,
+     "kaleido": 44806,
+     "same_source": 58923
+    },
+    "date": {
+     "n": 105155,
+     "kaleido": 70725,
+     "same_source": 75835
+    },
+    "address": {
+     "n": 99048,
+     "kaleido": 56583,
+     "same_source": 73560
+    },
+    "id_number": {
+     "n": 159222,
+     "kaleido": 21312,
+     "same_source": 39191
+    },
+    "email_address": {
+     "n": 53745,
+     "kaleido": 100,
+     "same_source": 259
+    },
+    "secret": {
+     "n": 22992,
+     "kaleido": 965,
+     "same_source": 6399
+    },
+    "company_name": {
+     "n": 54705,
+     "kaleido": 732,
+     "same_source": 7460
+    },
+    "phone_number": {
+     "n": 30353,
+     "kaleido": 884,
+     "same_source": 1681
+    }
+   }
+  },
+  "eval-challenge": {
+   "spans": 69823,
+   "in_kaleido_train": 20060,
+   "in_same_source_train": null,
+   "per_label": {
+    "human_name": {
+     "n": 11784,
+     "kaleido": 7017,
+     "same_source": null
+    },
+    "company_name": {
+     "n": 6602,
+     "kaleido": 2717,
+     "same_source": null
+    },
+    "email_address": {
+     "n": 7530,
+     "kaleido": 263,
+     "same_source": null
+    },
+    "phone_number": {
+     "n": 8747,
+     "kaleido": 1805,
+     "same_source": null
+    },
+    "id_number": {
+     "n": 11514,
+     "kaleido": 661,
+     "same_source": null
+    },
+    "private_url": {
+     "n": 5479,
+     "kaleido": 2,
+     "same_source": null
+    },
+    "secret": {
+     "n": 6101,
+     "kaleido": 2156,
+     "same_source": null
+    },
+    "address": {
+     "n": 5041,
+     "kaleido": 597,
+     "same_source": null
+    },
+    "date": {
+     "n": 7025,
+     "kaleido": 4842,
+     "same_source": null
+    }
+   }
+  },
+  "eval-v2": {
+   "spans": 9249,
+   "in_kaleido_train": 1488,
+   "in_same_source_train": null,
+   "per_label": {
+    "company_name": {
+     "n": 2071,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "human_name": {
+     "n": 2821,
+     "kaleido": 310,
+     "same_source": null
+    },
+    "address": {
+     "n": 293,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "phone_number": {
+     "n": 767,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "id_number": {
+     "n": 805,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "date": {
+     "n": 1233,
+     "kaleido": 1178,
+     "same_source": null
+    },
+    "private_url": {
+     "n": 433,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "email_address": {
+     "n": 548,
+     "kaleido": 0,
+     "same_source": null
+    },
+    "secret": {
+     "n": 278,
+     "kaleido": 0,
+     "same_source": null
+    }
+   }
+  },
+  "eval": {
+   "spans": 29919,
+   "in_kaleido_train": 16649,
+   "in_same_source_train": null,
+   "per_label": {
+    "human_name": {
+     "n": 4022,
+     "kaleido": 3298,
+     "same_source": null
+    },
+    "date": {
+     "n": 3832,
+     "kaleido": 3352,
+     "same_source": null
+    },
+    "id_number": {
+     "n": 4479,
+     "kaleido": 2064,
+     "same_source": null
+    },
+    "address": {
+     "n": 2215,
+     "kaleido": 1291,
+     "same_source": null
+    },
+    "phone_number": {
+     "n": 3109,
+     "kaleido": 1645,
+     "same_source": null
+    },
+    "email_address": {
+     "n": 2468,
+     "kaleido": 842,
+     "same_source": null
+    },
+    "company_name": {
+     "n": 2579,
+     "kaleido": 1847,
+     "same_source": null
+    },
+    "private_url": {
+     "n": 2902,
+     "kaleido": 318,
+     "same_source": null
+    },
+    "secret": {
+     "n": 4313,
+     "kaleido": 1992,
+     "same_source": null
+    }
+   }
+  }
+ }
+}

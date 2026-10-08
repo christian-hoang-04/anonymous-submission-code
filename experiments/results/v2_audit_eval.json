@@ -1,0 +1,424 @@
+{
+ "per_language": {
+  "eval-challenge": {
+   "docs": 3400,
+   "spans": 69823,
+   "phones": 8747,
+   "docs_with_bare_repeat": 890,
+   "docs_with_markup_span": 1111,
+   "docs_zero_spans": 0,
+   "phones_with_555": 966,
+   "tagged_value_also_bare": 1011,
+   "spans_with_markup_or_newline": 2055,
+   "overlong_span_gt80": 455,
+   "phones_sequential_filler": 1130,
+   "phones_nanp555": 432,
+   "placeholder_names": 5,
+   "len_chars": {
+    "0.05": 709,
+    "0.5": 1255,
+    "0.95": 1950
+   },
+   "spans_per_doc": {
+    "0.05": 15,
+    "0.5": 20,
+    "0.95": 28
+   },
+   "label_counts": {
+    "human_name": 11784,
+    "company_name": 6602,
+    "email_address": 7530,
+    "phone_number": 8747,
+    "id_number": 11514,
+    "private_url": 5479,
+    "secret": 6101,
+    "address": 5041,
+    "date": 7025
+   },
+   "unique_value_ratio": {
+    "address": 0.945,
+    "company_name": 0.714,
+    "date": 0.509,
+    "email_address": 0.958,
+    "human_name": 0.616,
+    "id_number": 0.961,
+    "phone_number": 0.838,
+    "private_url": 0.996,
+    "secret": 0.683
+   },
+   "top5_names_share": 0.0227,
+   "top5_phone_share": 0.0176
+  },
+  "eval-v2": {
+   "docs": 850,
+   "spans": 9249,
+   "phones": 767,
+   "docs_with_bare_repeat": 0,
+   "docs_with_markup_span": 0,
+   "docs_zero_spans": 0,
+   "docs_with_fffd": 9,
+   "phones_with_555": 4,
+   "phones_nanp555": 2,
+   "len_chars": {
+    "0.05": 300,
+    "0.5": 834,
+    "0.95": 1816
+   },
+   "spans_per_doc": {
+    "0.05": 7,
+    "0.5": 10,
+    "0.95": 20
+   },
+   "label_counts": {
+    "company_name": 2071,
+    "human_name": 2821,
+    "address": 293,
+    "phone_number": 767,
+    "id_number": 805,
+    "date": 1233,
+    "private_url": 433,
+    "email_address": 548,
+    "secret": 278
+   },
+   "unique_value_ratio": {
+    "address": 0.976,
+    "company_name": 0.023,
+    "date": 0.468,
+    "email_address": 0.741,
+    "human_name": 0.349,
+    "id_number": 0.887,
+    "phone_number": 0.731,
+    "private_url": 0.982,
+    "secret": 0.978
+   },
+   "top5_names_share": 0.0436,
+   "top5_phone_share": 0.0143
+  },
+  "eval": {
+   "docs": 1700,
+   "spans": 29919,
+   "spans_with_markup_or_newline": 1296,
+   "phones": 3109,
+   "phones_with_555": 221,
+   "docs_with_bare_repeat": 672,
+   "docs_with_markup_span": 454,
+   "docs_zero_spans": 0,
+   "phones_sequential_filler": 543,
+   "overlong_span_gt80": 268,
+   "tagged_value_also_bare": 852,
+   "placeholder_names": 113,
+   "phones_nanp555": 152,
+   "docs_with_fffd": 2,
+   "len_chars": {
+    "0.05": 552,
+    "0.5": 1145,
+    "0.95": 2301
+   },
+   "spans_per_doc": {
+    "0.05": 9,
+    "0.5": 16,
+    "0.95": 32
+   },
+   "label_counts": {
+    "human_name": 4022,
+    "date": 3832,
+    "id_number": 4479,
+    "address": 2215,
+    "phone_number": 3109,
+    "email_address": 2468,
+    "company_name": 2579,
+    "private_url": 2902,
+    "secret": 4313
+   },
+   "unique_value_ratio": {
+    "address": 0.796,
+    "company_name": 0.68,
+    "date": 0.598,
+    "email_address": 0.892,
+    "human_name": 0.547,
+    "id_number": 0.836,
+    "phone_number": 0.776,
+    "private_url": 0.948,
+    "secret": 0.81
+   },
+   "top5_names_share": 0.053,
+   "top5_phone_share": 0.0518
+  }
+ },
+ "total": {
+  "docs": 5950,
+  "spans": 108991,
+  "phones": 12623,
+  "docs_with_bare_repeat": 1562,
+  "docs_with_markup_span": 1565,
+  "docs_zero_spans": 0,
+  "phones_with_555": 1191,
+  "tagged_value_also_bare": 1863,
+  "spans_with_markup_or_newline": 3351,
+  "overlong_span_gt80": 723,
+  "phones_sequential_filler": 1673,
+  "phones_nanp555": 586,
+  "placeholder_names": 118,
+  "docs_with_fffd": 11
+ },
+ "generators": {
+  "gpt-5.4-mini": {
+   "docs": 4358,
+   "repaired": 474,
+   "spans": 81155,
+   "bad_span": 2541,
+   "fffd": 10,
+   "repair_rate": 0.1088,
+   "bad_span_rate": 0.0313
+  },
+  "mistral-medium-2505": {
+   "docs": 1082,
+   "repaired": 405,
+   "spans": 20771,
+   "bad_span": 1134,
+   "repair_rate": 0.3743,
+   "bad_span_rate": 0.0546
+  },
+  "gpt-oss-120b": {
+   "docs": 198,
+   "repaired": 83,
+   "spans": 2494,
+   "bad_span": 157,
+   "repair_rate": 0.4192,
+   "bad_span_rate": 0.063
+  },
+  "qwen/qwen3-32b": {
+   "docs": 89,
+   "repaired": 64,
+   "spans": 1370,
+   "bad_span": 68,
+   "fffd": 1,
+   "repair_rate": 0.7191,
+   "bad_span_rate": 0.0496
+  },
+  "google/gemma-4-31b-it:free": {
+   "docs": 82,
+   "repaired": 18,
+   "spans": 1390,
+   "bad_span": 70,
+   "repair_rate": 0.2195,
+   "bad_span_rate": 0.0504
+  },
+  "mimo-v2.5-pro": {
+   "docs": 43,
+   "repaired": 0,
+   "spans": 371,
+   "bad_span": 6,
+   "repair_rate": 0.0,
+   "bad_span_rate": 0.0162
+  },
+  "<EMPTY>": {
+   "docs": 41,
+   "repaired": 0,
+   "spans": 622,
+   "bad_span": 63,
+   "repair_rate": 0.0,
+   "bad_span_rate": 0.1013
+  },
+  "@cf/openai/gpt-oss-120b": {
+   "docs": 29,
+   "repaired": 15,
+   "spans": 357,
+   "bad_span": 7,
+   "repair_rate": 0.5172,
+   "bad_span_rate": 0.0196
+  },
+  "deepseek-v4-flash-free": {
+   "docs": 17,
+   "repaired": 1,
+   "spans": 205,
+   "bad_span": 19,
+   "repair_rate": 0.0588,
+   "bad_span_rate": 0.0927
+  },
+  "meta/llama-3.3-70b-instruct": {
+   "docs": 6,
+   "repaired": 1,
+   "spans": 149,
+   "bad_span": 5,
+   "repair_rate": 0.1667,
+   "bad_span_rate": 0.0336
+  },
+  "qwen3-235b": {
+   "docs": 5,
+   "repaired": 2,
+   "spans": 107,
+   "bad_span": 4,
+   "repair_rate": 0.4,
+   "bad_span_rate": 0.0374
+  }
+ },
+ "scenario_counts": [
+  [
+   "private_portal_secret_focus",
+   1703
+  ],
+  [
+   "adversarial_obfuscation",
+   1585
+  ],
+  [
+   "all_labels_dense",
+   1484
+  ],
+  [
+   "<EMPTY>",
+   891
+  ],
+  [
+   "voice_ocr_transcription",
+   149
+  ],
+  [
+   "public_negative_contrast",
+   62
+  ],
+  [
+   "structured_payload",
+   33
+  ],
+  [
+   "general_consumer_admin_support",
+   19
+  ],
+  [
+   "code_log_security_account_recovery",
+   12
+  ],
+  [
+   "hr_employer_school_insurance_telecom_admin",
+   12
+  ]
+ ],
+ "document_type_count": 34,
+ "document_type_top": [
+  [
+   "discharge summary",
+   488
+  ],
+  [
+   "lab result notification",
+   483
+  ],
+  [
+   "pharmacy refill request",
+   448
+  ],
+  [
+   "appointment reminder",
+   438
+  ],
+  [
+   "ambient voice scribe transcript",
+   396
+  ],
+  [
+   "medical bill / invoice",
+   385
+  ],
+  [
+   "insurance claim note",
+   354
+  ],
+  [
+   "patient portal access log",
+   349
+  ],
+  [
+   "HL7-style admission/update message",
+   335
+  ],
+  [
+   "telehealth triage note",
+   320
+  ],
+  [
+   "OCR-scanned clinical note",
+   306
+  ],
+  [
+   "referral letter",
+   279
+  ],
+  [
+   "FHIR-like Patient + Encounter resource",
+   225
+  ],
+  [
+   "outpatient note",
+   210
+  ],
+  [
+   "referral_letter",
+   153
+  ]
+ ],
+ "format_count": 21,
+ "format_top": [
+  [
+   "<EMPTY>",
+   891
+  ],
+  [
+   "voice-scribe transcript",
+   712
+  ],
+  [
+   "Markdown sections",
+   573
+  ],
+  [
+   "HL7-like pipe-delimited text",
+   536
+  ],
+  [
+   "patient portal audit log",
+   502
+  ],
+  [
+   "JSON-like object",
+   487
+  ],
+  [
+   "OCR text with light noise",
+   482
+  ],
+  [
+   "FHIR-like JSON",
+   453
+  ],
+  [
+   "table-like rows",
+   451
+  ],
+  [
+   "messy nurse/admin note",
+   436
+  ],
+  [
+   "plain clinical note",
+   353
+  ],
+  [
+   "clinical dialogue transcript",
+   43
+  ],
+  [
+   "form fields",
+   8
+  ],
+  [
+   "chat transcript",
+   7
+  ],
+  [
+   "application log lines",
+   3
+  ]
+ ]
+}

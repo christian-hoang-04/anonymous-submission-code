@@ -1,0 +1,24 @@
+{
+ "tamil": {
+  "docs": 16121,
+  "near_dup": 3,
+  "near_dup_digitmasked": 19
+ },
+ "thai": {
+  "docs": 16018,
+  "near_dup": 0,
+  "near_dup_digitmasked": 16
+ },
+ "vietnamese": {
+  "docs": 38963,
+  "near_dup": 13,
+  "near_dup_digitmasked": 46
+ },
+ "_total": {
+  "docs": 71102,
+  "near_dup": 16,
+  "near_dup_digitmasked": 81,
+  "threshold": 0.8,
+  "num_perm": 64
+ }
+}

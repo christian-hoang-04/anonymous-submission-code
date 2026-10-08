@@ -1,0 +1,24 @@
+{
+ "portuguese": {
+  "docs": 14915,
+  "near_dup": 5,
+  "near_dup_digitmasked": 16
+ },
+ "russian": {
+  "docs": 17260,
+  "near_dup": 5,
+  "near_dup_digitmasked": 15
+ },
+ "spanish": {
+  "docs": 18451,
+  "near_dup": 3,
+  "near_dup_digitmasked": 18
+ },
+ "_total": {
+  "docs": 50626,
+  "near_dup": 13,
+  "near_dup_digitmasked": 49,
+  "threshold": 0.8,
+  "num_perm": 64
+ }
+}
